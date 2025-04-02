@@ -106,8 +106,8 @@ def check_url(url):
     Returns:
         dict: A dictionary containing the URL, its status, and additional details.
     """
-    google_safe_browsing_api_key = "AIzaSyAEbX6GWerpUR1VARYIMgd663dGPtJCI40"  # Replace with your actual API key
-    virustotal_api_key = "49668fd76de995874d5bae3ed9306db5b571f26bb9f676f4e4c22a30c281ca53"  
+    google_safe_browsing_api_key = ""  # Replace with your actual API key
+    virustotal_api_key = ""  
     # Initialize the result dictionary
     result = {
         "url": url,
